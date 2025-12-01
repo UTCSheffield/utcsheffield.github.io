@@ -5,7 +5,7 @@
 @media (prefers-color-scheme: light) {
   body {
     --bg-color: #f8f8f8;
-    --primary-color: #f710bd;
+    --primary-color: #262262;
     --primary-contrast: #fff;
     --primary-shadow: rgba(0,0,0,0.04);
     --secondary-color: white;

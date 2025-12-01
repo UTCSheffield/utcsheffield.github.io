@@ -5,11 +5,11 @@ from jinja2 import Environment, FileSystemLoader
 REPO_ROOT = Path.cwd()
 PAGES_DIR = REPO_ROOT / "v3-src" / "pages"
 ASSETS_DIR = REPO_ROOT / "v3-src" / "assets"
-TEMPLATES_DIR = REPO_ROOT / "v3-src" / "templates"
+TEMPLATE_DIR = REPO_ROOT / "v3-src" / "templates"
 LAYOUT_NAME = "layout.html"
 OUT_DIR = REPO_ROOT / "build"
 
-env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=False)
+env = Environment(loader=FileSystemLoader(str(TEMPLATE_DIR)), autoescape=False)
 layout_template = env.get_template(LAYOUT_NAME)
 
 

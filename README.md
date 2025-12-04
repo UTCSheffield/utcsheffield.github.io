@@ -187,3 +187,54 @@ Add a hamburger menu button that shows/hides a navigation menu on smaller screen
 - Use `classList.toggle()` and `classList.remove()` to manage the `.active` class
 - Use `addEventListener('click', ...)` to handle user interactions
 
+## Task: Add a relevant widget
+
+A widget is html/css/javascript that you can drop into you page fairly easily
+to do a task or add information.
+
+I comes with other peoples images and styles so be careful to check it works 
+well with your own design.
+
+### Weather widget
+
+Embed a simple weather widget using a third-party service like WeatherWidget.io.
+
+- https://www.forecast.co.uk/widget/
+- https://weatherwidget.io/
+- https://www.theweather.com/widget/
+- https://meteo.uk/widget/
+
+
+### Christmas Widgets
+
+- https://www.geeksforgeeks.org/html/decorating-your-website-for-christmas-and-new-year-html-css-code-snippets/
+- https://www.perssondennis.com/articles/33-christmas-animations-to-easily-add-to-your-website
+
+
+### History timeline widget
+
+- https://timeline.knightlab.com/
+
+
+
+## Advanced Task : APIs
+
+*Application Programming Interfaces* (APIs) allow you to fetch data from other
+services and display it on your own site.
+
+They usually require some JavaScript to make the request and handle the 
+response. And often require you to sign up for an API key.
+
+### Task: Add weather into your own html using a weather API
+
+Fetch weather data from a public API (like OpenWeatherMap) and display it on your webpage.
+
+- https://www.geeksforgeeks.org/javascript/weather-app-using-vanilla-javascript/
+- https://medium.com/@ravipatel.it/a-comprehensive-guide-to-fetching-weather-data-using-javascript-fetch-api-13133d0bc2e6
+- https://javascript.plainenglish.io/build-a-real-time-weather-app-with-javascript-and-openweathermap-api-bcf8111df1fe
+
+### Christmas APIs
+
+- https://christmascountdown.live/api#/joke
+- https://github.com/christmas-countdown/christmas.js 
+

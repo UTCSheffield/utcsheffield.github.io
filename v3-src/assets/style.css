@@ -7,7 +7,7 @@
   --primary-shadow: rgba(0, 0, 0, 0.04);
   --secondary-color: white;
   --secondary-contrast: black;
-  --main-width: 900px;
+  --main-width: 1000px;
 }
 
 [data-theme="dark"] {

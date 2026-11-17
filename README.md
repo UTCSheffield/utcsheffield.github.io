@@ -49,7 +49,11 @@ last week.
    python build-v3.py
    ```  
 
-3. The generated static files will be available in the `build` directory.
+3. The generated static files will be available in the `build` directory. You can run this youself if you need to with. 
+
+   ```bash
+   python build-v3.py; python -m http.server -d build
+   ```
 
 ### GitHub Pages deploy workflow
 
